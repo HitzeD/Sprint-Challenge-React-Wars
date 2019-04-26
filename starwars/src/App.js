@@ -37,6 +37,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        {/*in here, we are mapping each character into the StarwarsChars component*/}
         <StarwarsChars people={this.state.starwarsChars.map(person => {
           return person
         })}/>

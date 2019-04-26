@@ -28,7 +28,7 @@ function Characters(props) {
             Gender: {props.person.gender}
         </p>
         <p>
-            Home World: src="{props.person.homeworld}"
+            Home World: {props.person.homeworld}
         </p>
         
     </div>
