@@ -5,7 +5,7 @@ import Characters from './Characters.js';
 // and maps each charater into the Charater component
 const StarwarsChars = props => {
     return(
-        <div>
+        <div className="charswrap">
             {props.people.map(person => (
                 <Characters person={person} key={person.created} />
             ))}
