@@ -2,7 +2,6 @@ import React from 'react';
 // blank form that cycles through each charater and 
 // populates each area as called
 function Characters(props) {
-    console.log(props.person);
   return (
     <div className="chars">
         <h3 className="chars-name"><strong>{props.person.name}</strong></h3>
