@@ -37,7 +37,7 @@ class App extends Component {
         {/*in here, we are mapping each character into the StarwarsChars component*/}
         <StarwarsChars people={this.state.starwarsChars.map(person => {
           return person
-        })}/>
+        })} />
       </div>
     );
   }
