@@ -26,12 +26,20 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  ### React allows devs to quickly build large applications
+
 - [ ] What does it mean to _think_ in react?
+
+  ### This means to think in components and breaking items into smaller bits
 
 - [ ] Describe state.
 
+  ### described as the heart of React, state is the data being passed around the application
+
 - [ ] Describe props.
 
+  ### described as the blood of React, props are how state is passed around between components
+  
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
